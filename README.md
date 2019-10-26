@@ -1,4 +1,4 @@
-# Expressjs-Validator-Starter
+# Cypress Example
 
 ## IDE And Tools
 
@@ -6,8 +6,8 @@
 
 ## App Setup
 
-* Clone this repository by executing `git clone https://github.com/vladimirfomene/expressjs-validator-starter.git` in your console.
-* Enter the project directory with `cd expressjs-validator-starter`.
+* Clone this repository.
+* Enter the project directory.
 * Run `npm install` to install all the project's dependencies.
 
 ## Running the app.
