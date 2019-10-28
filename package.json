@@ -5,6 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec cypress/integration/**/*.feature",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vladimir fomene",
@@ -14,5 +16,12 @@
     "express-validator": "^6.2.0",
     "expressjs": "^1.0.1",
     "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "cypress": "^3.5.0",
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
