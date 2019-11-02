@@ -82,4 +82,4 @@ typings/
 # webstorm files
 .idea/
 *.iml
-cypress/videos/formTest.feature.mp4
+cypress/videos/*.mp4

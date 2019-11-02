@@ -1,12 +1,12 @@
-Feature: The Facebook
+Feature: Form Testing
       
-  Scenario: Opening a social network page
-    Given I open Google page
-    Then I see "Google" in the title
+  Scenario: Opening the Example Page
+    Given I open Example page
+    Then I see "Cypress Example" in the title
 
-  Scenario Outline: Opening a social network page2
-    Given I open Google page
-    Then I see "<blah>" in the title
+  Scenario Outline: Field Entering
+     Given I open Example page
+     Then I see "<blah>" in the title
   Examples:
     | blah |
-    | Google |
+    | Cypress Example |
