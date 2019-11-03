@@ -1,18 +1,27 @@
 {
-  "name": "expressjs-validator-starter",
+  "name": "cypress-example",
   "version": "1.0.0",
-  "description": "start app for express-validator",
+  "description": "start app for cypress example",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec cypress/integration/**/*.feature",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vladimir fomene",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-validator": "^6.2.0",
     "expressjs": "^1.0.1",
-    "pug": "^2.0.3"
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "cypress": "^3.6.0",
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
